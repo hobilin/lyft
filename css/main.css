@@ -10,11 +10,15 @@
   box-sizing: border-box;
 }
 
+/*características del cuerpo del html*/
+
 body {
   width: 100%;
   margin: 0 auto;
-	background-color: #2C2A41;
+  background-color: #2C2A41;
 }
+
+/*caaracterísticas de lodos los elementos con la clase container*/
 
 .container {
   width: 1150px;
@@ -57,9 +61,13 @@ body {
   text-transform: uppercase;
 }
 
+/*float a la izquiera a todos los elementos con la clase*/
+
 .float {
   float: left;
 }
+
+/*características del encabezado de la página*/
 
 header {
   color: #fff;
@@ -68,6 +76,8 @@ header {
   position: fixed;
   z-index: 10;
 }
+
+/*características de los elementos con clase text del encabezado*/
 
 header .text {
   font-family: 'Montserrat', sans-serif;
@@ -80,18 +90,19 @@ header .text {
   bottom: 20px;
 }
 
-#p-icon {
-  width: 10px;
-  height: 10px;
-}
+/*características del id drive del header*/
 
 header #drive {
   margin-left: 670px;
 }
 
+/*a todos los elementos con la clase in-bl, que su display sea inline-block*/
+
 .in-bl {
   display: inline-block;
 }
+
+/*características de la imagen (logo) del header*/
 
 header img {
   margin-left: 75px;
@@ -99,6 +110,8 @@ header img {
   width: 65px;
   height: 45px;
 }
+
+/*características del id log del header*/
 
 header #log {
   border: 1px solid #fff;
@@ -108,41 +121,49 @@ header #log {
   margin-right: 40px;
 }
 
-#logo-white{
-	cursor: pointer;
+/*cuando el mouse pase por sobre todas siguientes id, que ocurra lo siguiente*/
+
+#logo-white:hover {
+  cursor: pointer;
 }
 
 #drive:hover {
-	color: #FF00BF;
-	cursor: pointer;
+  color: #FF00BF;
+  cursor: pointer;
 }
 
 #explore:hover {
-	color: #FF00BF;
-	cursor: pointer;
+  color: #FF00BF;
+  cursor: pointer;
 }
 
 #help:hover {
-	color: #FF00BF;
-	cursor: pointer;
+  color: #FF00BF;
+  cursor: pointer;
 }
 
 #log:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
+
+/*características del id lyft-gif (caja que contiene a la imagen de fondo)*/
 
 #lyft-gif {
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: -3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -3;
 }
 
+/*características de la imagen dentro del id lyft-gif*/
+
 #lyft-gif img {
-	width: 1400px;
-	height: 850px;
+  width: 1400px;
+  height: 850px;
   margin-top: -140px;
 }
+
+/*características de la clase beside, cuadro contenedor del formulario y otros textos*/
 
 .beside {
   width: 560px;
@@ -151,6 +172,8 @@ header #log {
   margin-top: 110px;
   background-color: #fff;
 }
+
+/*características del título del formulario*/
 
 #title-form {
   width: 300px;
@@ -165,6 +188,8 @@ header #log {
   line-height: 44px;
 }
 
+/*características del subtítulo del formulario*/
+
 #subtitle-form {
   margin-top: 15px;
   margin-left: 60px;
@@ -176,6 +201,8 @@ header #log {
   font-weight: 300;
   line-height: 21px;
 }
+
+/*característocas de todos los input que en su atributo type tengan como valor text*/
 
 input[type=text] {
   font-family: 'Montserrat', sans-serif;
@@ -192,6 +219,8 @@ input[type=text] {
   border-bottom: 1px solid #000;
 }
 
+/*característocas de todos los input que en su atributo type tengan como valor submit*/
+
 input[type=submit] {
   width: 190px;
   height: 50px;
@@ -206,9 +235,13 @@ input[type=submit] {
   margin-left: 60px;
 }
 
+/*cuando el mouse pase sobre el input con type submit que ocurra lo siguiente*/
+
 input[type=submit]:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
+
+/*características del link Sign Up To Ride*/
 
 #sign-up {
   margin-left: 20px;
@@ -218,9 +251,13 @@ input[type=submit]:hover {
   line-height: 24px;
 }
 
+/*cuando el mpuse pase por sobre el link que pase lo sguiente*/
+
 #sign-up:hover {
   color: #B30086;
 }
+
+/*características de los párrafos de beside con la clase check-status*/
 
 .check-status {
   margin-top: 10px;
@@ -235,14 +272,20 @@ input[type=submit]:hover {
   line-height: 14px;
 }
 
+/*características de los links dentro de los párrafos de beside con la clase link*/
+
 .check-status .link {
   color: #B30086;
   text-decoration: none;
 }
 
+/*cuando el mouse pase por sobre los links dentro de check-status que ocurra lo siguiente*/
+
 .check-status .link:hover {
   text-decoration: underline;
 }
+
+/*características del elemento con id fade (gradiente conectora)*/
 
 #fade {
   width: 100%;
@@ -253,273 +296,348 @@ input[type=submit]:hover {
   z-index: -1
 }
 
+/*caaracterísticas de la primera sección*/
+
 #first-box {
   width: 100%;
   height: 620px;
   background: linear-gradient(rgb(118, 39, 143), rgb(43, 30, 102));
-	float: left;
+  float: left;
 }
+
+/*características de todos los textos en la primera sección*/
 
 .box-text {
   color: #fff;
   font-family: 'Montserrat', sans-serif;
 }
 
+/*características de todos los títulos de la primera sección*/
+
 .title {
-	margin-right: 0;
-	font-size: 28px;
-	font-weight: 500;
-	line-height: 31px;
+  margin-right: 0;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 31px;
 }
+
+/*características del primer título de la primera sección*/
 
 #title1 {
-	margin-left: 155px;
-	margin-top: 85px;
+  margin-left: 155px;
+  margin-top: 85px;
   width: 300px;
   height: 25px;
-
 }
 
+/*características del segundo título de la primera sección*/
+
 #title2 {
-	margin-left: 155px;
+  margin-left: 155px;
   margin-top: 65px;
   width: 380px;
   height: 30px;
   font-size: 28px;
 }
 
+/*características del tercer título de la primera sección*/
+
 #title3 {
-	margin-left: 155px;
+  margin-left: 155px;
   margin-top: 65px;
   width: 275px;
   height: 70px;
   font-size: 28px;
 }
 
+/*características de todos los subtítulos de la primera sección*/
+
 .sub {
-	margin-right: 0;
-	margin-left: 155px;
-	font-size: 16px;
+  margin-right: 0;
+  margin-left: 155px;
+  font-size: 16px;
   font-weight: 300;
   line-height: 24px;
 }
+
+/*características del primer subtítulo de la primera sección*/
 
 #subtitle1 {
   width: 445px;
   height: 45px;
 }
 
+/*características del segundo subtítulo de la primera sección*/
+
 #subtitle2 {
   width: 470px;
   height: 50px;
 }
+
+/*características del tercer subtítulo de la primera sección*/
 
 #subtitle3 {
   width: 485px;
   height: 45px;
 }
 
+/*características de la imagen del teléfono en la primera sección*/
+
 #phone-pic {
-	position: absolute;
-	top: 600px;
-	right: 150px;
-	width: 450px;
-	height: 495px;
+  position: absolute;
+  top: 600px;
+  right: 150px;
+  width: 450px;
+  height: 495px;
 }
+
+/*características de todas las secciones contenedoras de videos*/
 
 .video-box {
-	background-color: #fff;
-	width: 100%;
-	height: 500px;
-	float: left;
+  background-color: #fff;
+  width: 100%;
+  height: 500px;
+  float: left;
 }
 
+/*características de todos los textos watch (en los contenedores de video)*/
 
 .watch {
-	font-family: 'Montserrat', sans-serif;
-	width: 70px;
-	height: 18px;
-	font-size: 14px;
-	font-weight: 500;
-	line-height: 21px;
-	margin-bottom: 0;
-	margin-top: 50px;
-
+  font-family: 'Montserrat', sans-serif;
+  width: 70px;
+  height: 18px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  margin-bottom: 0;
+  margin-top: 50px;
 }
+
+/*características de todos los textos video-title (en los contenedores de video)*/
 
 .video-title {
-	font-family: 'Montserrat', sans-serif;
-	width: 350px;
-	height: 25px;
-	font-size: 28px;
-	font-weight: 500;
-	line-height: 31px;
-	margin-top: 0;
-	margin-bottom: 15px;
+  font-family: 'Montserrat', sans-serif;
+  width: 350px;
+  height: 25px;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 31px;
+  margin-top: 0;
+  margin-bottom: 15px;
 }
+
+/*características de todos los textos video-txt (en los contenedores de video)*/
 
 .video-txt {
-	font-family: 'Montserrat', sans-serif;
-	width: 350px;
-	height: 100px;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 24px;
+  font-family: 'Montserrat', sans-serif;
+  width: 350px;
+  height: 100px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 }
+
+/*margen izquiera de 50px*/
 
 .ml-1 {
-		margin-left: 50px;
+  margin-left: 50px;
 }
+
+/*margen izquiera de 950px*/
 
 .ml-2 {
-	margin-left: 950px;
+  margin-left: 950px;
 }
 
+/*características del primer video*/
 
 #video1 {
-	position: absolute;
-	top: 1150px;
-	right: 0;
+  position: absolute;
+  top: 1150px;
+  right: 0;
 }
 
+/*características del segundo video*/
 
 #video2 {
-	position: absolute;
-	top: 1650px;
-	left: 0;
+  position: absolute;
+  top: 1650px;
+  left: 0;
 }
+
+/*características del tercer video*/
 
 #video3 {
-	position: absolute;
-	top: 2150px;
-	right: 0;
+  position: absolute;
+  top: 2150px;
+  right: 0;
 }
 
+/*caaracterísticas del pie de página*/
 
 footer {
-	background-color: #333447;
-	width: 100%;
-	height: 500px;
-	color: #fff;
-	font-family: 'Montserrat', sans-serif;
-	float: left;
+  background-color: #333447;
+  width: 100%;
+  height: 500px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  float: left;
 }
+
+/*características de todos los títulos del footer*/
 
 .foot-title {
-	font-size: 16px;
-	font-weight: bold;
-	line-height: 18px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 18px;
 }
+
+/*características de todos los subtitulos del footer*/
 
 .foot-sub {
-	font-size: 14px;
-	font-weight: 300;
-	line-height: 21px;
-	margin-bottom: 25px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+  margin-bottom: 25px;
 }
+
+/*cuando el mouse pase por sobre los subtitulos del footer que ocurra lo siguiente*/
 
 .foot-sub:hover {
-	cursor: pointer;
-	color: #FF00BF
+  cursor: pointer;
+  color: #FF00BF
 }
 
-#log-in{
-	display: inline-block;
-	margin-top: 50px;
-	margin-right: 200px;
-	margin-left: 100px;
+/*características del cuadro con título Log in*/
+
+#log-in {
+  display: inline-block;
+  margin-top: 50px;
+  margin-right: 200px;
+  margin-left: 100px;
 }
+
+/*características del cuadro con título Partner*/
 
 #partner {
-	display: inline-block;
-	margin-top: 50px;
-	margin-right: 200px;
+  display: inline-block;
+  margin-top: 50px;
+  margin-right: 200px;
 }
+
+/*características del cuadro con título Learn*/
 
 #learn {
-	display: inline-block;
-	margin-top: 50px;
-	margin-right: 100px;
+  display: inline-block;
+  margin-top: 50px;
+  margin-right: 100px;
 }
+
+/*características del contenedor de los íconos grandes apps*/
 
 #cont-icon {
-	display: inline-block;
-	position: relative;
-	top: 40px;
-	left: 300px;
+  display: inline-block;
+  position: relative;
+  top: 40px;
+  left: 300px;
 }
+
+/*características de todos los íconos grandes apps*/
 
 .app {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
+
+/*cuando el mouse pase por sobre los íconos grandes apps que ocurra lo siguiente*/
 
 .app:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
+
+/*características de las img dentro del id cont-icon*/
 
 #cont-icon img {
-	width: 160px;
-	height: 60px;
+  width: 160px;
+  height: 60px;
 }
 
-
+/*características de todos los p dentro de websites*/
 
 #websites p {
-	display: inline-block;
+  display: inline-block;
 }
+
+/*características de todos los fa dentro de websites (íconos)*/
 
 #websites .fa {
-	color: #fff;
-	font-size: 20px;
-	background-color: inherit;
-	border: 1px solid #fff;
-	border-radius: 100px;
-	margin-right: 20px;
-	margin-left: 20px;
+  color: #fff;
+  font-size: 20px;
+  background-color: inherit;
+  border: 1px solid #fff;
+  border-radius: 100px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
+
+/*cuando el mouse pase por sobre los elementos fa, que ocurra lo siguiente*/
 
 #websites .fa:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
+
+/*características del icon de facebook*/
 
 #websites .fa.icon-facebook {
-	padding: 6px 6px;
-	margin-left: 580px;
-	margin-top: 70px;
+  padding: 6px 6px;
+  margin-left: 580px;
+  margin-top: 70px;
 }
+
+/*características del icon de instagram*/
 
 #websites .fa.icon-instagram {
-	padding: 6px 6px;
-	margin-top: 70px;
+  padding: 6px 6px;
+  margin-top: 70px;
 }
+
+/*características del icon de twitter*/
 
 #websites .fa.icon-twitter {
-	padding: 6px 6px;
-	margin-top: 70px;
+  padding: 6px 6px;
+  margin-top: 70px;
 }
+
+/*características de la linea divisora*/
 
 hr {
-	margin-right: 90px;
-	width: 1000px;
-	color: #fff;
-	height: 2px;
+  margin-right: 90px;
+  width: 1000px;
+  color: #fff;
+  height: 2px;
 }
+
+/*características del copyright statement*/
 
 #copyright {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 14px;
-	font-weight: 300;
-	line-height: 21px;
-	margin-left: 590px;
-	margin-top: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+  margin-left: 590px;
+  margin-top: 30px;
 }
+
+/*características de los link que se encuentran en el copyright*/
 
 .foot-link {
-	text-decoration: none;
-	color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
+/*cuando el mouse pase por sobre los links que se encuentran en el copyright que ocurra lo siguiente*/
+
 .foot-link:hover {
-	text-decoration: underline;;
-	color: #FF00BF;
+  text-decoration: underline;
+  ;
+  color: #FF00BF;
 }
